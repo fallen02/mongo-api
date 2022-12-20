@@ -1,0 +1,17 @@
+{
+  "name": "mongo-api",
+  "version": "1.0.0",
+  "description": "A mongodb api",
+  "main": "server.js",
+  "author": "Fallen",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js -w"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20"
+  }
+}
